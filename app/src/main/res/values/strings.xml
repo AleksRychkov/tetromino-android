@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tetromino</string>
+
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Play again</string>
+    <string name="exit">Exit</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+</resources>

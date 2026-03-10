@@ -1,0 +1,11 @@
+<resources>
+    <!-- Allows us to override night specific attributes in the
+        values-night folder. -->
+    <style name="NightAdjusted.Theme.Tetromino" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- The final theme we use -->
+    <style name="Theme.Tetromino" parent="NightAdjusted.Theme.Tetromino">
+        <item name="android:windowBackground">@color/windowBg</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
